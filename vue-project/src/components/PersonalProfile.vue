@@ -3,13 +3,15 @@
         <header> <h1>Personal Profile Web page </h1>  </header>
         <main>
           <section class="main-content">
-            <div>1 About Me</div>
-            <div>2 Education / Achievements</div>
-            <div>3 Course </div>  
-            <div>4 IT Experience</div>
-            <div>5 Hobbies & Interests</div>
-            <div>6 Goals In Life / Dream</div>  
-            <div>7 Picture Gallery</div>
+            <h2>About Me</h2>
+              <p>I am Peter D Arquines Jr, a 2nd year Computer Science College Student at Asia Pacific College</p>
+            <h2>Education / Achievements</h2>
+              <github/>
+              <linkedin/>
+              <w3schools/>
+            <h2>Hobbies & Interests</h2>
+            <h2>Goals In Life / Dream</h2>
+            <h2>Picture Gallery</h2>
           </section>
           <aside class="sidebar">
             </aside>
@@ -19,4 +21,5 @@
     </template>
     
     <script></script>
-    <style></style>
+
+<style></style>

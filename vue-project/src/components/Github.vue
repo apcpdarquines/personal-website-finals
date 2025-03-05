@@ -1,6 +1,8 @@
 <template>
   <div class="github">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo" />
+    <a href="https://github.com/apcpdarquines" target="_blank" rel="noopener noreferrer">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo" />
+    </a>
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -11,7 +13,6 @@ export default {
   data() {
     return {
       name: 'GitHub',
-      message: 'I like GitHub'
     }
   }
 };
@@ -19,11 +20,10 @@ export default {
 
 <style>
 .github {
-  border: dashed black 1px;
   display: inline-block;
   margin: 10px;
   padding: 10px;
-  background-color: lightblue; /* Changed background color to differentiate */
+  background-color: transparent; /* Changed background color to differentiate */
 }
 
 .github-logo {
