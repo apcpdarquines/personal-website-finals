@@ -48,7 +48,8 @@
   <main>
     <section class="container">
       <h2>About Me</h2>
-      <p>I am Peter D Arquines Jr, a 2nd year Computer Science College Student at Asia Pacific College</p>
+      <p>I am Peter D Arquines Jr</p>
+      <p>A delulu second year Computer Science Student at Asia Pacific College</p>
     </section>
 
     <section class="container">
@@ -134,44 +135,33 @@ main {
   max-width: 800px; /* Limit the width for better readability */
   padding: 30px;
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+
   margin-bottom: 20px; /* Space between sections */
 }
 
 /* Individual styles for each section */
 .about-me {
-  background-color: rgba(255, 255, 255, 0.9); /* Light background */
-  border-left: 5px solid #4CAF50; /* Green left border */
-  grid-column: 1; /* Position in the first column */
-  margin: 20px 0; /* Adjust vertical spacing */
+  P {
+    color: white; /* Change header text color to white for better contrast */
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+  }
 }
 
 .education {
-  background-color: rgb(255, 255, 255); /* Light gray background */
   border-left: 5px solid #2196F3; /* Blue left border */
-  grid-column: 2; /* Position in the first column */
-  margin: 20px 0; /* Adjust vertical spacing */
 }
 
 .hobbies {
-  background-color: rgba(255, 245, 157, 0.9); /* Light yellow background */
   border-left: 5px solid #FF9800; /* Orange left border */
-  grid-column: 1; /* Position in the first column */
-  margin: 20px 20px; /* Adjust vertical spacing */
 }
 
 .goals {
-  background-color: rgba(220, 220, 255, 0.9); /* Light blue background */
   border-left: 5px solid #3F51B5; /* Indigo left border */
-  grid-column: 2; /* Position in the first column */
-  margin: 20px 0; /* Adjust vertical spacing */
 }
 
 .gallery-section {
-  background-color: rgba(255, 228, 225, 0.9); /* Light pink background */
   border-left: 5px solid #E91E63; /* Pink left border */
-  grid-column: 1; /* Position in the first column */
-  margin: 20px 0; /* Adjust vertical spacing */
 }
 
 h2 {
@@ -183,7 +173,6 @@ h2 {
 }
 
 p {
-  line-height: 1.6;
   color: #555;
   margin-bottom: 20px; /* Space between paragraphs */
 }

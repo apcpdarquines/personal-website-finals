@@ -1,5 +1,4 @@
 <template>
-
     <personal-profile/>
     <h2>Please Leave A Comment Here</h2> <!-- Changed <hi> to <h2> -->
     <comment-form/>
@@ -61,14 +60,17 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
-h1, h2, h3 {
+h2 {
   color: white; /* Change header text color to white for better contrast */
   margin-top: 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  padding: 10px; /* Add padding for better spacing */
+  display: inline-block; /* Make the background wrap around the text */
+  border-radius: 5px; /* Optional: rounded corners for the background */
 }
 
 p {
-  line-height: 1.6;
   color: #f0f0f0; /* Lighter text color for better readability */
 }
 

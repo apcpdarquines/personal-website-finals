@@ -4,8 +4,6 @@
     <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">
       <img src="https://www.w3schools.com/images/w3schools_logo_436_2.png" alt="W3Schools Logo" class="w3schools-logo" />
     </a>
-    <h2>{{ name }}</h2>
-    <p>{{ message }}</p>
   </div>
 </template>
 

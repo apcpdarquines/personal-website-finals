@@ -3,8 +3,6 @@
     <a href="https://github.com/apcpdarquines" target="_blank" rel="noopener noreferrer">
       <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo" />
     </a>
-    <h2>{{ name }}</h2>
-    <p>{{ message }}</p>
   </div>
 </template>
 

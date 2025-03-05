@@ -35,8 +35,8 @@ async function submitComment() {
       .insert([{ name: name.value, comment: comment.value }]);
 
     if (error) {
-      console.error("Error inserting comment:", error);
-      submissionStatus.value = "Error submitting comment. Please try again.";
+      console.error("Error inserting comment:", error.message); // Log the error message
+      submissionStatus.value = "Error submitting comment: " + error.message; // Show the error message
     } else {
       submissionStatus.value = "Comment submitted successfully!";
       name.value = ''; // Clear form fields
