@@ -1,5 +1,15 @@
 <template>
-  <h1>Hello World!</h1>
+  <h1>Personal Profile Webpage</h1>
+  <p>
+    <br>About Me
+    <br>(Do not include birthdate / age / contact information)
+    <br>Education / Achievements
+    <br>Course
+    <br>IT Experience
+    <br>Hobbies & Interests
+    <br>Goals In Life / Dream
+    <br>Picture Gallery
+  </p>
 </template>
 
 <script></script>
