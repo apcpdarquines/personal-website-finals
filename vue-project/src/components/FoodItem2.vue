@@ -1,32 +1,27 @@
-<script setup>
-import { ref, onMounted } from 'vue'
-import { supabase } from './lib/supabaseClient'
-
-const countries = ref([])
-
-async function getCountries() {
-  const { data } = await supabase.from('countries').select()
-  countries.value = data
-}
-
-onMounted(() => {
-  getCountries()
-})
-</script>
-
 <template>
+    <div  class="mango">
+      <h2>{{ name }}</h2>
+      <p>{{ message }}</p>
+    </div>
+  </template>
   
-      <ul>
-      <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
-    </ul>
-
-
-   <h1>Food</h1>
-  <personal-profile/> <br>
-  <food-item/> 
-  <food-item2/>
-  <food-item/> 
-  <food-item2/> 
-</template>
-
-<style></style>
+  <script>
+  export default {
+    data() {
+      return {
+        name: 'Mangoes',
+        message: 'I like Mangoes'
+      }
+    }
+  };
+  </script>
+  
+  <style>
+    .mango {
+    border: dashed black 1px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightyellow;
+  }
+  </style>
