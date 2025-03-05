@@ -1,7 +1,7 @@
 <template>
-    <h1>Countries</h1>
+    <h1>Goals</h1>
     <ul>
-      <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
+      <li v-for="goals in goals" :key="goals.id">{{ Goals.name }}</li>
     </ul>
   </template>
   
@@ -21,15 +21,15 @@
 import { ref, onMounted } from 'vue'
 import { supabase } from '../lib/supabaseClient'
 
-const countries = ref([])
+const goals = ref([])
 
-async function getCountries() {
-  const { data } = await supabase.from('countries').select()
-  countries.value = data
+async function getGoals() {
+  const { data } = await supabase.from('goals').select()
+  goals.value = data
 }
 
 onMounted(() => {
-  getCountries()
+  getGoals()
 })
 
 </script>

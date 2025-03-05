@@ -8,27 +8,16 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      name: 'LinkedIn',
-    }
-  }
-};
-</script>
-
 <style>
 .linkedin {
   display: inline-block;
   margin: 10px;
   padding: 10px;
-  background-color: lightyellow; /* Keeping the same background color */
   text-align: center; /* Center the text and logo */
 }
 
 .linkedin-logo {
-  width: 100px; /* Adjust size as needed */
+  width: 175px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Center the logo */
   margin: 0 auto 10px; /* Center the logo and add space below */

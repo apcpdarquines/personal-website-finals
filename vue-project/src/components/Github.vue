@@ -8,16 +8,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      name: 'GitHub',
-    }
-  }
-};
-</script>
-
 <style>
 .github {
   display: inline-block;
@@ -27,7 +17,7 @@ export default {
 }
 
 .github-logo {
-  width: 50px; /* Adjust size as needed */
+  width: 100px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Center the logo */
   margin: 0 auto 10px; /* Center the logo and add space below */

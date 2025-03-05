@@ -9,16 +9,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      name: 'W3Schools', // Name of the platform
-    }
-  }
-};
-</script>
-
 <style>
 .w3schools {
   display: inline-block; /* Aligns the component inline */
@@ -29,7 +19,7 @@ export default {
 }
 
 .w3schools-logo {
-  width: 100px; /* Adjust size as needed */
+  width: 175px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Block display for centering */
   margin: 0 auto 10px; /* Center the logo and add space below */
