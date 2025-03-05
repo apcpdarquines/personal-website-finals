@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Github from './components/Github.vue'
-import Linkedin from './components/Linkedin.vue' // Ensure the import name matches
+import Linkedin from './components/LinkedIn.vue' // Ensure the import name matches
 import Country from './components/Country.vue'
 import CommentForm from './components/CommentForm.vue'
 import Comment from './components/Comment.vue'
