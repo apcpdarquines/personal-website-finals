@@ -32,15 +32,6 @@ body {
   }
 }
 
-header {
-  text-align: center;
-  color: white;
-  padding: 20px 0;
-  border-radius: 8px 8px 0 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-}
-
 main {
   display: flex;
   justify-content: space-between;
