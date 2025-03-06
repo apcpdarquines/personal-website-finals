@@ -3,49 +3,6 @@
     <h1>Personal Profile Web Page</h1>
   </header>
   <main>
-    <section class="about-me container">
-      <h2>About Me</h2>
-      <p>I am Peter D Arquines Jr, a 2nd year Computer Science College Student at Asia Pacific College</p>
-    </section>
-
-    <section class="education container">
-      <h2>Education / Achievements</h2>
-      <div class="social-links">
-        <github />
-        <linkedin />
-        <w3schools />
-      </div>
-    </section>
-
-    <section class="hobbies container">
-      <h2>Hobbies & Interests</h2>
-      <p><!-- Add your hobbies and interests here --></p>
-    </section>
-
-    <section class="goals container">
-      <h2>Goals In Life / Dream</h2>
-      <goals />
-    </section>
-
-    <section class="gallery-section container">
-      <h2>Picture Gallery</h2>
-      <div class="gallery">
-        <!-- Add your images here -->
-      </div>
-    </section>
-  </main>
-</template>
-
-<script>
-  // You can add any necessary script logic here
-</script>
-
-<style>
-<template>
-  <header>
-    <h1>Personal Profile Web Page</h1>
-  </header>
-  <main>
     <section class="container">
       <h2>About Me</h2>
       <p>I am Peter D Arquines Jr</p>
@@ -112,13 +69,14 @@ header {
   color: white;
   padding: 30px 0;
   border-radius: 0 0 20px 20px; /* Rounded bottom corners */
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
 }
 
 h1 {
   font-size: 2.5em; /* Larger font size for the main title */
   margin: 0;
+  font-color: rgb(255, 255, 255)
 }
 
 main {
@@ -143,8 +101,9 @@ main {
 .about-me {
   P {
     color: white; /* Change header text color to white for better contrast */
-    margin-top: 20px;
+    margin-top: 5px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+    line-spacing: 1px
   }
 }
 
