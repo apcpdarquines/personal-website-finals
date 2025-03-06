@@ -98,13 +98,13 @@ main {
 }
 
 /* Individual styles for each section */
-.about-me {
-  P {
-    color: white; /* Change header text color to white for better contrast */
-    margin-top: 5px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
-    line-spacing: 1px
-  }
+.about-me p {
+  color: #ffcccc; /* Set text color to a light, warm color that complements the background */
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(150, 0, 0, 0.5); /* Text shadow for depth */
+  padding: 10px; /* Add padding for better spacing */
+  display: inline-block; /* Make the background wrap around the text */
+  border-radius: 5px; /* Optional: rounded corners for the background */
 }
 
 .education {

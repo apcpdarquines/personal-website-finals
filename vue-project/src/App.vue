@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh; /* Ensure the body takes the full height */
-  background: linear-gradient(270deg, rgb(117, 36, 36), rgb(102, 37, 37), rgb(104, 16, 16));
+  background: linear-gradient(270deg, rgb(117, 36, 36), rgb(112, 29, 29), rgb(117, 36, 36));
   background-size: 600% 600%; /* Increase the size for smoother animation */
   animation: gradientAnimation 5s ease infinite; /* Animation properties */
 }
@@ -43,19 +43,10 @@ main {
   padding: 20px;
 }
 
-.sidebar {
-  flex: 1;
-  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent sidebar */
-  padding: 20px;
-  border-left: 1px solid #ddd;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-}
-
 h2 {
   color: white; /* Change header text color to white for better contrast */
   margin-top: 20px;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
-  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  text-shadow: 1px 1px 2px rgba(150, 0, 0, 0.5); /* Text shadow for depth */
   padding: 10px; /* Add padding for better spacing */
   display: inline-block; /* Make the background wrap around the text */
   border-radius: 5px; /* Optional: rounded corners for the background */
@@ -95,14 +86,6 @@ p {
 
 .gallery img:hover {
   transform: scale(1.05); /* Scale up on hover */
-}
-
-.section {
-  margin: 20px;
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 footer {
